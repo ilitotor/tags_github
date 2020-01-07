@@ -6,7 +6,7 @@ Go to the project directory and build Brainnco image:
 
 Then run:
 
- ```docker run brainnco```   
+ ```docker run -p 8000:8000 brainnco```   
  
  To access the app go to:
  
@@ -14,10 +14,10 @@ Then run:
   
   To access the API documentation:
   
- ```http://127.0.0.1:8000/docs#/```
+ ```http://0.0.0.0:8000/docs#/```
 
 To test:
  
 1. Run  ```docker ps```
 2. Run ```docker exec -it <container-id> bash  ```
-3. Run ```python -m pytest```
+3. Run ```python -m pytest```statu

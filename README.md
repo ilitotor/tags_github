@@ -1,4 +1,4 @@
-#  brainn.co Challenge
+#  FASTAPI Studies
 
 Clone this repo.
 

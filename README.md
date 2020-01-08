@@ -1,5 +1,7 @@
 #  brainn.co Challenge
 
+Clone this repo.
+
 Go to the project directory and build Brainnco image:
 
 ```docker build . -t brainnco```
